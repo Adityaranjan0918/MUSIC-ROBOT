@@ -10,4 +10,6 @@ WORKDIR /app/
 RUN python3 -m pip install --upgrade pip setuptools
 RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
 
+EXPOSE 3000
+
 CMD python3 -m Oneforall
