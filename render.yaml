@@ -1,5 +1,11 @@
 version: '3.8'
 services:
+- type: web
+    name: traba-server-node-dev
+    env: docker
+    branch: main
+    dockerfilePath: ./Dockerfile
+    dockerContext: ./
   proxy:
     image: gcr.io/cloudsql-docker/gce-proxy:1.33.1
     volumes:
