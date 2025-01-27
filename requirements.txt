@@ -40,3 +40,6 @@ https://github.com/KurimuzonAkuma/pyrogram/archive/v2.1.23.zip
 git+https://github.com/AsmSafone/SafoneAPI
 bing_image_downloader
 gpytranslate
+Flask==2.2.2
+gunicorn==20.1.0
+aiohttp==3.8.2
