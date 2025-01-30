@@ -26,6 +26,16 @@ tgcrypto
 telegraph==2.2.0
 yt-dlp
 lexica-api==1.4.7
+motor
+pytz
+requests
+flask
+httpx 
+pymongo
+gunicorn==20.1.0
+pyrofork
+aiohttp
+Mangandi
 httpx==0.25.2
 lyricsgenius
 spotipy
@@ -40,6 +50,3 @@ https://github.com/KurimuzonAkuma/pyrogram/archive/v2.1.23.zip
 git+https://github.com/AsmSafone/SafoneAPI
 bing_image_downloader
 gpytranslate
-Flask==2.2.2
-Flask-SQLAlchemy==2.5.1
-Flask-Migrate==3.1.0
